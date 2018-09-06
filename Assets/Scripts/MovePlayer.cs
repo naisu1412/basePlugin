@@ -4,8 +4,10 @@ using UnityEngine;
 
 public class MovePlayer : MonoBehaviour {
 	/* This will also contain the vars for players */
+
 	public float maxValLeft;
 	public float maxValRight;
+	public List<string> dummyPts;
 	void Start () {
 		
 	}

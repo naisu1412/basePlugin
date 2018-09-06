@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class AddForceToCapsule : MonoBehaviour {
 
+	
 	// Use this for initialization
 	void Start () {
 		 transform.GetComponent<Rigidbody2D>().AddForce(transform.up * 100 * Time.deltaTime);
