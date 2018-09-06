@@ -53,9 +53,28 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Almgp_particle_vol_1\script\sprite_sheet.cs" />
+     <Compile Include="Assets\Base Assets\Scripts\audioController.cs" />
+     <Compile Include="Assets\Base Assets\Scripts\DialogoueText.cs" />
+     <Compile Include="Assets\Base Assets\Scripts\LoadingScene.cs" />
+     <Compile Include="Assets\Base Assets\Scripts\TapTouch.cs" />
+     <Compile Include="Assets\Base Assets\Scripts\Timer.cs" />
      <Compile Include="Assets\Scripts\AddForceToCapsule.cs" />
+     <Compile Include="Assets\Scripts\CheckpointController.cs" />
+     <Compile Include="Assets\Scripts\CloudController.cs" />
+     <Compile Include="Assets\Scripts\EyeBlinking.cs" />
+     <Compile Include="Assets\Scripts\GamePause.cs" />
      <Compile Include="Assets\Scripts\GermCollider.cs" />
      <Compile Include="Assets\Scripts\MovePlayer.cs" />
+     <Compile Include="Assets\Scripts\Obstacle.cs" />
+     <Compile Include="Assets\Scripts\panelCheckpointCollide.cs" />
+     <Compile Include="Assets\Scripts\PanelController.cs" />
+     <Compile Include="Assets\Scripts\ParticleController.cs" />
+     <Compile Include="Assets\Scripts\Player_Controller_Demo.cs" />
+     <Compile Include="Assets\Scripts\PowerUpsCounter.cs" />
+     <Compile Include="Assets\Scripts\RepeatingBG.cs" />
+     <Compile Include="Assets\Scripts\Spawner_Controller.cs" />
+     <Compile Include="Assets\Scripts\SpawnPoint.cs" />
  <Reference Include="UnityEditor.StandardEvents">
  <HintPath>/Users/iMac/Documents/Eric John/Unity Games/Renalog Drop V2/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>

@@ -36,6 +36,7 @@ public class GermCollider : MonoBehaviour {
 			Destroy(goParticleSystem , goParticleSystem.GetComponent<ParticleSystem>().main.duration);
 
 			}else if(gameObject.tag == "superGerm"){
+
 				gameObject.transform.GetChild(0).GetComponent<SpriteRenderer>().sprite = spriteNormal;
 				gameObject.tag = "Germ";
 
